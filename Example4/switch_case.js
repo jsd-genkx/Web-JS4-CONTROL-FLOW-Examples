@@ -1,27 +1,27 @@
 // //switch statment. it compare using === behind the sence, if you declare a grade "50" in the case have to be "50" because it check the type aswell
-const score = 85;
+// const score = 85;
 
-switch (true) {
-	// If score is 90 or greater
-	case score >= 90:
-		console.log(" You are grad is A");
-		break;
-	// If score is 80 or greater
-	case score >= 80:
-		console.log("You are grad is B");
-		break;
-	// If score is 70 or greater
-	case score >= 70:
-		console.log("You are grad is C");
-		break;
-	// If score is 60 or greater
-	case score >= 60:
-		console.log("You are grad is D");
-		break;
-	// Anything 59 or below is failing
-	default:
-		console.log("You are grad is F");
-}
+// switch (true) {
+// 	// If score is 90 or greater
+// 	case score >= 90:
+// 		console.log(" You are grad is A");
+// 		break;
+// 	// If score is 80 or greater
+// 	case score >= 80:
+// 		console.log("You are grad is B");
+// 		break;
+// 	// If score is 70 or greater
+// 	case score >= 70:
+// 		console.log("You are grad is C");
+// 		break;
+// 	// If score is 60 or greater
+// 	case score >= 60:
+// 		console.log("You are grad is D");
+// 		break;
+// 	// Anything 59 or below is failing
+// 	default:
+// 		console.log("You are grad is F");
+// }
 
 
 // const score = 85;
@@ -179,10 +179,10 @@ switch (true) {
 // const categories = ["Groceries", "Toiletries", "Stationery", "Household Cleaning Supplies", "Snacks and Beverages"];
 
 // // Simulate the product number's category
-// let productNumber = 3; // Assume the product number belongs to category 3 (Stationery)
+// let productCategoriesNumber = 3; // Assume the product number belongs to category 3 (Stationery)
 
 // // Process the product's category
-// switch (productNumber) {
+// switch (productCategoriesNumber) {
 //     case 1:
 //         console.log("Product belongs to the Groceries category.");
 //         break;
@@ -205,30 +205,30 @@ switch (true) {
 
 //------------------------------------------------Inventory----------------------------------------------//
 
-// let products = {
-//   product_name: "Chocolate",
-//   quantity_in_stock: 7,
-//   unit_price: 5
-// };
+let products = {
+  product_name: "Chocolate",
+  quantity_in_stock: 7,
+  unit_price: 5
+};
 
 
-// switch (true) {
-//   case products.quantity_in_stock === 0:
-//       console.log(`${products.product_name} is out of stock. An urgent reorder is needed.`);
-//       break;
-//   case products.quantity_in_stock > 0 && products.quantity_in_stock <= 10:
-//       console.log(`${products.product_name} has low stock. Consider reordering soon.`);
-//       break;
-//   case products.quantity_in_stock > 10 && products.quantity_in_stock <= 50:
-//       console.log(`${products.product_name} is in stock. All is well.`);
-//       break;
-//   case products.quantity_in_stock > 50:
-//       console.log(`${products.product_name} is overstocked. Consider putting it on sale.`);
-//       break;
-//   default:
-//       console.log(`Unknown stock status for ${products.product_name}.`);
-//       break;
-// }
+switch (true) {
+  case products.quantity_in_stock === 0:
+      console.log(`${products.product_name} is out of stock. An urgent reorder is needed.`);
+      break;
+  case products.quantity_in_stock > 0 && products.quantity_in_stock <= 10:
+      console.log(`${products.product_name} has low stock. Consider reordering soon.`);
+      break;
+  case products.quantity_in_stock > 10 && products.quantity_in_stock <= 50:
+      console.log(`${products.product_name} is in stock. All is well.`);
+      break;
+  case products.quantity_in_stock > 50:
+      console.log(`${products.product_name} is overstocked. Consider putting it on sale.`);
+      break;
+  default:
+      console.log(`Unknown stock status for ${products.product_name}.`);
+      break;
+}
 
 
 //if else and switch make more sense

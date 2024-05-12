@@ -42,7 +42,7 @@
     
 //     // Apply a special discount if the stock exceeds 80 units using if-else
 //     if (product.quantity_in_stock > 80) {
-//         product.unit_price *= 0.1;  // Apply a 10% discount
+//         product.unit_price *= 0.9;  // Apply a 10% discount
 //     }
     
 //     console.log(`The adjusted price of ${product.product_name} is £${product.unit_price.toFixed(2)}.`);
