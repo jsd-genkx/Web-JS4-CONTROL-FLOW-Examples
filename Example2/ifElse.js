@@ -10,13 +10,13 @@
 
 //------------------------------------------Inventory-----------------------------------------//
 // let product = {
-//   product_name: "Bread",
-//   quantity_in_stock: 0
+//   productName: "Bread",
+//   quantityInStock: 0
 // };
 
 // // Check stock level and update status
-// if (product.quantity_in_stock > 0) {
-//   console.log(`${product.product_name} is available for purchase.`);
+// if (product.quantityInStock > 0) {
+//   console.log(`${product.productName} is available for purchase.`);
 // } else {
-//   console.log(`${product.product_name} is currently out of stock.`);
+//   console.log(`${product.productName} is currently out of stock.`);
 // }

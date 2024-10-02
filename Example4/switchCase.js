@@ -206,44 +206,44 @@
 //------------------------------------------------Inventory----------------------------------------------//
 
 let products = {
-  product_name: "Chocolate",
-  quantity_in_stock: 7,
+  productName: "Chocolate",
+  quantityInStock: 7,
   unit_price: 5
 };
 
 
 switch (true) {
-  case products.quantity_in_stock === 0:
-      console.log(`${products.product_name} is out of stock. An urgent reorder is needed.`);
+  case products.quantityInStock === 0:
+      console.log(`${products.productName} is out of stock. An urgent reorder is needed.`);
       break;
-  case products.quantity_in_stock > 0 && products.quantity_in_stock <= 10:
-      console.log(`${products.product_name} has low stock. Consider reordering soon.`);
+  case products.quantityInStock > 0 && products.quantityInStock <= 10:
+      console.log(`${products.productName} has low stock. Consider reordering soon.`);
       break;
-  case products.quantity_in_stock > 10 && products.quantity_in_stock <= 50:
-      console.log(`${products.product_name} is in stock. All is well.`);
+  case products.quantityInStock > 10 && products.quantityInStock <= 50:
+      console.log(`${products.productName} is in stock. All is well.`);
       break;
-  case products.quantity_in_stock > 50:
-      console.log(`${products.product_name} is overstocked. Consider putting it on sale.`);
+  case products.quantityInStock > 50:
+      console.log(`${products.productName} is overstocked. Consider putting it on sale.`);
       break;
   default:
-      console.log(`Unknown stock status for ${products.product_name}.`);
+      console.log(`Unknown stock status for ${products.productName}.`);
       break;
 }
 
 
 //if else and switch make more sense
 // let products = {
-//   product_name: "Chocolate",
-//   quantity_in_stock: 7
+//   productName: "Chocolate",
+//   quantityInStock: 7
 // };
 
 // // Pre-determine the category
 // let stockCategory;
-// if (products.quantity_in_stock === 0) {
+// if (products.quantityInStock === 0) {
 //   stockCategory = "outOfStock";
-// } else if (products.quantity_in_stock > 0 && products.quantity_in_stock <= 10) {
+// } else if (products.quantityInStock > 0 && products.quantityInStock <= 10) {
 //   stockCategory = "lowStock";
-// } else if (products.quantity_in_stock > 10 && products.quantity_in_stock <= 50) {
+// } else if (products.quantityInStock > 10 && products.quantityInStock <= 50) {
 //   stockCategory = "normalStock";
 // } else {
 //   stockCategory = "overstock";
@@ -252,19 +252,19 @@ switch (true) {
 // // Now use switch to perform actions based on stock category
 // switch (stockCategory) {
 //   case "outOfStock":
-//       console.log(`${products.product_name} is out of stock. An urgent reorder is needed.`);
+//       console.log(`${products.productName} is out of stock. An urgent reorder is needed.`);
 //       break;
 //   case "lowStock":
-//       console.log(`${products.product_name} has low stock. Consider reordering soon.`);
+//       console.log(`${products.productName} has low stock. Consider reordering soon.`);
 //       break;
 //   case "normalStock":
-//       console.log(`${products.product_name} is in stock. All is well.`);
+//       console.log(`${products.productName} is in stock. All is well.`);
 //       break;
 //   case "overstock":
-//       console.log(`${products.product_name} is overstocked. Consider putting it on sale.`);
+//       console.log(`${products.productName} is overstocked. Consider putting it on sale.`);
 //       break;
 //   default:
-//       console.log(`Unknown stock status for ${products.product_name}.`);
+//       console.log(`Unknown stock status for ${products.productName}.`);
 //       break;
 // }
 

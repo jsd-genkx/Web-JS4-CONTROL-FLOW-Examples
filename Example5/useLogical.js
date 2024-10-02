@@ -39,14 +39,14 @@
 //----------------------------------------------------Inventory----------------------------------------------//
 //&&
 // let product = {
-//   product_name: "Chocolate",
-//   quantity_in_stock: 25,
+//   productName: "Chocolate",
+//   quantityInStock: 25,
 //   is_on_promotion: true
 // };
 
-// if (product.is_on_promotion && product.quantity_in_stock > 20) {
+// if (product.is_on_promotion && product.quantityInStock > 20) {
 //   console.log("Promotion for Chocolate: Active - good stock level.");
-// } else if (product.product_name === "Chocolate" && !product.is_on_promotion) {
+// } else if (product.productName === "Chocolate" && !product.is_on_promotion) {
 //   console.log("Chocolate is not on promotion.");
 // } else {
 //   console.log("No special handling for Chocolate.");
@@ -55,12 +55,12 @@
 
 //&& ||
 // let product = {
-//   product_name: "Chocolate",
-//   quantity_in_stock: 15,
-//   recent_sales: 50
+//   productName: "Chocolate",
+//   quantityInStock: 15,
+//   recentSales: 50
 // };
 
-// if (product.quantity_in_stock < 20 || product.recent_sales > 30) {
+// if (product.quantityInStock < 20 || product.recentSales > 30) {
 //   console.log("Alert: Chocolate needs restocking or monitoring due to high sales or low stock.");
 // } else {
 //   console.log("Chocolate is stable in stock and sales.");
