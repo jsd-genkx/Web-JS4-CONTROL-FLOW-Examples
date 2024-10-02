@@ -1,7 +1,7 @@
 // //switch statment. it compare using === behind the sence, if you declare a grade "50" in the case have to be "50" because it check the type aswell
-// const score = 85;
+const score = 85;
 
-// switch (true) {
+switch (true) {
 // 	// If score is 90 or greater
 // 	case score >= 90:
 // 		console.log(" You are grad is A");
@@ -21,7 +21,7 @@
 // 	// Anything 59 or below is failing
 // 	default:
 // 		console.log("You are grad is F");
-// }
+}
 
 
 // const score = 85;
